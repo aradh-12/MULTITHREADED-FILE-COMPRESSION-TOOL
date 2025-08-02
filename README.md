@@ -84,3 +84,5 @@ Task_2/
 ```bash
 g++ -std=c++11 -pthread main2.cpp -o main2
 
+<img width="642" height="69" alt="Image" src="https://github.com/user-attachments/assets/e0c86fb2-360a-45bb-a67d-951b0db29457" />
+
