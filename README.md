@@ -83,5 +83,9 @@ Task_2/
 
 ```bash
 g++ -std=c++11 -pthread main2.cpp -o main2
+```
 
+### Gallery
+
+https://github.com/aradh-12/MULTITHREADED-FILE-COMPRESSION-TOOL/issues/1
 
