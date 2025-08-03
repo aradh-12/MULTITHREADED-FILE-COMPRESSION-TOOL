@@ -1,91 +1,122 @@
-# MULTITHREADED-FILE-COMPRESSION-TOOL
+# 🚀 MULTITHREADED FILE COMPRESSION TOOL
 
-
-**COMPANY:** Codtech IT Solutions  
-**NAME:** Aradhya Verma  
-**INTERN ID:** CT04DZ475  
-**DOMAIN:** C++ Programming  
-**DURATION:** 4 Weeks  
-**MENTOR:** Neela Santhosh  
-
-A high-performance C++ console application that performs **file compression and decompression** using **Run-Length Encoding (RLE)**. The tool compares single-threaded and multithreaded performance to demonstrate optimization using `std::thread`.
+A blazing-fast C++ console app designed to **compress and decompress files** using **Run-Length Encoding (RLE)** — all while showcasing the performance boost achieved through **multithreading**. 🔧⚡
 
 ---
 
-## 🚀 Overview
+## 👨‍💻 Internship Details
 
-This command-line compression tool showcases the power of multithreading in C++. It compresses a text file using **Run-Length Encoding** and then decompresses it in two modes:
-
-- ⚙️ **Multithreaded Decompression**
-- 🧵 **Single-threaded Decompression**
-
-The results are written to separate files and performance time is recorded for each operation.
-
----
-
-## ✨ Key Features
-
-📦 **Compress File** – Encode repeating characters using RLE  
-🔄 **Multithreaded Decompression** – Parallel processing of compressed chunks  
-🔁 **Single-threaded Decompression** – Linear processing for comparison  
-📊 **Performance Timing** – Track execution time in milliseconds  
-🧠 **Thread-safe Design** – Prevents race conditions  
-📤 **Outputs** – Saves to `compressed.txt`, `output_mt.txt`, and `output_st.txt`  
+**🏢 Company:** Codtech IT Solutions  
+**👤 Intern:** Aradhya Verma  
+**🆔 Intern ID:** CT04DZ475  
+**💻 Domain:** C++ Programming  
+**⏳ Duration:** 4 Weeks  
+**🧑‍🏫 Mentor:** Neela Santhosh  
 
 ---
 
-## 🛠️ Technology Stack
+## 📖 About the Project
 
-**Language:**  
+This tool is not just a compression utility—it's a practical demonstration of how **multithreaded programming in C++** can dramatically improve performance. It compresses files using **Run-Length Encoding (RLE)** and then decompresses them using:
+
+- 🔄 **Single-threaded mode** for baseline comparison  
+- 🚀 **Multithreaded mode** for enhanced speed using `std::thread`  
+
+🔍 The tool also captures and displays precise execution time for each operation, helping you **visualize the speedup**.
+
+---
+
+## 🌟 Features At a Glance
+
+✅ **Compress Files** using efficient RLE  
+🧵 **Multithreaded Decompression** — each chunk handled in parallel  
+⚙️ **Single-threaded Decompression** for benchmarking  
+📈 **Performance Tracking** — shows time in milliseconds  
+🧠 **Thread-safe Mechanism** — with `std::mutex` to avoid race conditions  
+🗃️ **Clean Output Structure** — outputs stored in `compressed.txt`, `output_mt.txt`, and `output_st.txt`
+
+---
+
+## 🧪 Real-World Use
+
+Need to process large log files, text archives, or repetitive datasets faster? This tool is a hands-on example of how **concurrent processing** can significantly reduce time, especially for I/O-heavy operations.
+
+---
+
+## 💻 Tech Stack
+
+**Programming Language:**  
 - C++
 
-**Libraries Used:**  
-- `<iostream>`  
-- `<fstream>`  
-- `<vector>`  
-- `<string>`  
-- `<thread>`  
-- `<chrono>`  
-- `<mutex>`  
+**Core Libraries:**  
+- `<iostream>`, `<fstream>`, `<vector>`, `<string>`  
+- `<thread>`, `<chrono>`, `<mutex>`
 
-**Tools Used:**  
-- `g++` (GNU Compiler Collection)  
-- Terminal (macOS/Linux)  
-- Visual Studio Code (Recommended)
+**Tools:**  
+- `g++` (C++11 and above with pthread support)  
+- Terminal (Linux/macOS/Windows)  
+- Visual Studio Code (Recommended for dev)
 
 ---
 
 ## 📁 Project Structure
 
-Task_2/
-├── input.txt # Raw input file (editable)
-├── compressed.txt # RLE encoded data
-├── output_mt.txt # Decompressed (Multithreaded)
-├── output_st.txt # Decompressed (Single-threaded)
-├── main2.cpp # Source code
-├── main2 # Compiled executable
-├── task2_output.png # Screenshot of sample output
-└── README.md # Project documentation
+```
+
+Task\_2/
+├── input.txt            # Input text file (editable)
+├── compressed.txt       # Output after RLE compression
+├── output\_mt.txt        # Output from multithreaded decompression
+├── output\_st.txt        # Output from single-threaded decompression
+├── main2.cpp            # Core source code
+├── main2                # Compiled executable (after build)
+├── task2\_output.png     # Sample output screenshot
+└── README.md            # Documentation
+
+````
 
 ---
 
-## ⚙️ Quick Start
+## ⚙️ How to Run
 
 ### 🔧 Prerequisites
 
-- C++ compiler with C++11 support  
-- Terminal or Command Prompt  
-- Visual Studio Code (for best editing experience)
+Make sure you have:
 
----
+- A C++11 compatible compiler (like `g++`)
+- A terminal or command prompt
+- Visual Studio Code (optional, but great for debugging)
 
-### ▶️ Compilation
+### ▶️ Compile the Code
 
 ```bash
 g++ -std=c++11 -pthread main2.cpp -o main2
+````
+
+### ▶️ Run the Executable
+
+```bash
+./main2
 ```
 
-### Gallery
+You’ll see the file being compressed and decompressed, followed by printed execution times for each mode.
 
-https://github.com/aradh-12/MULTITHREADED-FILE-COMPRESSION-TOOL/issues/1
+---
 
+## 📸 Gallery / Output Preview
+
+Check out the sample output and performance benchmarks here:
+📎 [Issue Tracker & Screenshots](https://github.com/aradh-12/MULTITHREADED-FILE-COMPRESSION-TOOL/issues/1)
+
+---
+
+## 🙌 Final Note
+
+This project isn't just about compressing files—it's a showcase of **clean multithreaded architecture** and **real-world system optimization**. Whether you're learning parallel programming or building efficient data tools, this is your starting point.
+
+---
+
+```
+
+Let me know if you'd like a version with badges, visual performance graphs, or Markdown table formats.
+```
