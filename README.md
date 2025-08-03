@@ -118,5 +118,3 @@ This project isn't just about compressing files—it's a showcase of **clean mul
 
 ```
 
-Let me know if you'd like a version with badges, visual performance graphs, or Markdown table formats.
-```
